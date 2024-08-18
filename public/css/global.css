@@ -3,7 +3,12 @@
     padding: 0;
 }
 
-span {
-    font-size: 14px;
-    line-height: 22px;
+
+.div-btt {
+    border-bottom: 1px solid #dddddd;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
 }
