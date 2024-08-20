@@ -24,6 +24,7 @@ header {
 
 .search {
     width: 90%;
+    max-width: 470px;
     margin: 0 auto;
     padding: 5px;
     
@@ -165,7 +166,7 @@ main {
 }
 
 .container-title h1 {
-    font-size: x-large;
+    font-size: 26px;
 }
 
 .container-links {
@@ -229,7 +230,6 @@ main {
     position: absolute;
     top: 87%;
     left: 79%;
-
 }
 
 .btn-more span {
@@ -286,8 +286,9 @@ main {
     gap: 5px;
 }
 
-.owner-place-name__ratings li:first-child img {
-    max-width: 16px;
+.owner-place-name__ratings li img {
+    width: 16px;
+    height: 16px;
 }
 
 .owner-place-name__ratings li a {
@@ -331,4 +332,267 @@ main {
     color: #6a6a6a;
     font-size: 14px;
     line-height: 18px;
+}
+
+/* UPSIDES */
+
+.upsides {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px 0;
+}
+
+.upside-topic {
+    display: flex;
+    gap: 32px;
+}
+
+.upside-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.upside-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.upside-title {
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+}
+
+.upside-description {
+    font-size: 14px;
+    line-height: 20px;
+    color: #6a6a6a;
+}
+
+/* DETAILS */
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    padding: 32px 0;
+}
+
+.translated {
+    display: flex;
+    gap: 4px;
+    width: 100%;
+    padding: 16px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+}
+
+.translated p, .translated a {
+    color: #222222;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.details-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.details-text p, .show-more a {
+    color: #222222;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.show-more {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.show-more img {
+    max-width: 12px;
+    max-height: 12px;
+}
+
+/* SLEEPING INFO */
+
+.sleeping-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 48px 0;
+}
+
+.sleeping-title {
+    font-size: 22px;
+}
+
+.container-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.sleep-place-card {
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sleep-place-card img {
+    width: 24px;
+    height: 24px;
+}
+
+.sleep-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sleep-text span {
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+}
+
+.sleep-text p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+}
+
+/* COMODITIES */
+
+.comodities {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0;
+    gap: 40px;
+}
+
+.comodities-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.comodities-title {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.container-comodities-grid {
+    display: grid;
+    grid-template-columns: 260px 260px;
+    grid-template-rows: auto auto auto auto auto;
+    row-gap: 16px;
+    column-gap: 80px;
+}
+
+.comoditie-info {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.comoditie-info img {
+    height: 24px;
+    width: 24px;
+}
+
+.comoditie-info span {
+    text-decoration: line-through;
+}
+
+/* DATE */
+
+.date {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0;
+    gap: 22px;
+}
+
+.date-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.date-title {
+    font-size: 22px;
+    color: #222222;
+}
+
+.date-details {
+    font-size: 14px;
+    color: #6a6a6a;
+}
+
+.container-calendars {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+table {
+    gap: 10px;
+}
+
+.month td {
+    width: 40px;
+    height: 40px;    
+    text-align: center;
+    border-radius: 50%;
+}
+
+.month thead tr td {
+    color: #6a6a6a;
+    font-size: 12px;
+}
+
+.month tbody tr td {
+    font-size: 14px;
+    border: 1px solid white;
+}
+
+.month tbody tr td:hover {
+    border: 1px solid #6a6a6a;
+}
+
+.day-selected {
+    background-color: #222222;
+    color: white;
+}
+
+.date-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date-footer img {
+    height: 24px;
+    width: 24px;
+}
+
+.date-footer a {
+    font-size: 14px;
+    color: #222222;
 }
