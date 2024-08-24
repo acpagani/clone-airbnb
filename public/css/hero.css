@@ -4,16 +4,13 @@
     flex-direction: column;
     gap: 20px;
     position: relative;
+    margin-bottom: 32px;
 }
 
 .container-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.container-title h1 {
-    font-size: 26px;
 }
 
 .container-links {
@@ -29,7 +26,6 @@
 
 .link a {
     color: black;
-    font-size: 14px;
 }
 
 .images {
@@ -77,10 +73,4 @@
     position: absolute;
     top: 87%;
     left: 79%;
-}
-
-.btn-more span {
-    font-size: 14px;
-    line-height: 22px;
-    line-height: normal;
 }

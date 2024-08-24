@@ -1,0 +1,30 @@
+.ratings {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    padding: 45px 0;
+}
+
+.ratings-title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ratings-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 6rem;
+}
+
+.rate-metric {
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: start;  
+}
+
+.rate-metric:not(:last-child) {
+    border-right: 1px solid #dddddd;
+}

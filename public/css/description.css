@@ -8,19 +8,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 32px 0;
-}
-
-.owner-place-name h2 {
-    font-size: 22px;
-}
-
-.owner-place-name__details {
-    display: flex;
-    list-style-type: none;
-    justify-content: flex-start;
-    color: #222222;
-    gap: 5px;
+    padding-bottom: 32px;
 }
 
 .owner-place-name__ratings {
@@ -83,8 +71,6 @@
 
 .profile-text__details li {
     color: #6a6a6a;
-    font-size: 14px;
-    line-height: 18px;
 }
 
 /* UPSIDES */
@@ -113,14 +99,11 @@
 }
 
 .upside-title {
-    font-size: 16px;
     line-height: 20px;
     color: #222222;
 }
 
 .upside-description {
-    font-size: 14px;
-    line-height: 20px;
     color: #6a6a6a;
 }
 
@@ -144,7 +127,6 @@
 
 .translated p, .translated a {
     color: #222222;
-    font-size: 16px;
     line-height: 18px;
 }
 
@@ -156,7 +138,6 @@
 
 .details-text p, .show-more a {
     color: #222222;
-    font-size: 16px;
     line-height: 24px;
 }
 
@@ -180,13 +161,9 @@
     padding: 48px 0;
 }
 
-.sleeping-title {
-    font-size: 22px;
-}
-
 .container-cards-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 16px;
 }
 
@@ -211,14 +188,11 @@
 }
 
 .sleep-text span {
-    font-size: 16px;
     line-height: 20px;
     color: #222222;
 }
 
 .sleep-text p {
-    font-size: 14px;
-    line-height: 20px;
     color: #222222;
 }
 
@@ -235,11 +209,6 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-}
-
-.comodities-title {
-    font-size: 22px;
-    line-height: 26px;
 }
 
 .container-comodities-grid {
@@ -281,18 +250,16 @@
 }
 
 .date-title {
-    font-size: 22px;
     color: #222222;
 }
 
 .date-details {
-    font-size: 14px;
     color: #6a6a6a;
 }
 
 .container-calendars {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 30px;
 }
 
@@ -334,18 +301,37 @@ table {
     color: white;
 }
 
+.white-space:hover {
+    border-color: white !important;
+}
+
 .date-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.date-footer img {
+.keyboard-icon {
+    border-radius: 50%;
+    padding: 5px 7px;
+}
+
+.keyboard-icon img {
     height: 24px;
     width: 24px;
 }
 
+.keyboard-icon:hover {
+    background-color: #dddddd;
+}
+
 .date-footer a {
-    font-size: 14px;
     color: #222222;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.date-footer a:hover {
+    background-color: #dddddd;
+    color: black;
 }

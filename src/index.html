@@ -9,8 +9,19 @@
     <link rel="stylesheet" href="../public/css/header.css">
     <link rel="stylesheet" href="../public/css/hero.css">
     <link rel="stylesheet" href="../public/css/description.css">
+    <link rel="stylesheet" href="../public/css/rent-form.css">
+    <link rel="stylesheet" href="../public/css/ratings.css">
     <link rel="stylesheet" href="index.css">
 </head>
+
+<!-- COISAS A SEREM OTIMIZADAS: CSS -->
+ <!-- 
+    padding: 48px e 32px
+    display: flex e column
+    border: sempre 1px solid #dddddd
+    img -> svg
+ -->
+
 <body>
     <header>
         <div class="container-header">
@@ -44,7 +55,7 @@
                     <ul>
                         <li>
                             <button class="btn-announce">
-                                <span class="roboto-medium">Anuncie seu espaço no Airbnb</span>
+                                <span class="roboto-medium text-sm">Anuncie seu espaço no Airbnb</span>
                             </button>
                         </li>
                         <li>
@@ -64,15 +75,15 @@
     <main>
         <div class="container-hero">
             <div class="container-title">
-                <h1 class="roboto-medium">Estanconfor Santos com Vista Mar bem alto, garagem</h1>
+                <h1 class="roboto-medium text-title">Estanconfor Santos com Vista Mar bem alto, garagem</h1>
                 <div class="container-links">
                     <div class="link">
                         <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2; overflow: visible;"><path d="m27 18v9c0 1.1046-.8954 2-2 2h-18c-1.10457 0-2-.8954-2-2v-9m11-15v21m-10-11 9.2929-9.29289c.3905-.39053 1.0237-.39053 1.4142 0l9.2929 9.29289" fill="none"></path></svg>
-                        <a href="#" class="roboto-medium">Compartilhar</a>
+                        <a href="#" class="roboto-medium text-sm">Compartilhar</a>
                     </div>
                     <div class="link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
-                        <a href="#" class="roboto-medium">Salvar</a>
+                        <a href="#" class="roboto-medium text-sm">Salvar</a>
                     </div>
                 </div>
             </div>
@@ -85,20 +96,20 @@
             </div>
             <button class="btn-more">
                 <img src="../public/assets/svg/more.svg" alt="More icon">
-                <span class="roboto-medium">Mostrar todas as fotos</span>
+                <span class="roboto-medium text-sm">Mostrar todas as fotos</span>
             </button>
         </div>
-        <div class="container-content div-btt">
+        <div class="container-content divisor-bottom">
             <div class="description">
-                <section class="owner-place-name  div-btt">
-                    <h2 class="roboto-medium">Quarto em apart-hotel em Santos, Brasil</h2>
-                    <ul class="owner-place-name__details">
+                <section class="owner-place-name  divisor-bottom">
+                    <h2 class="roboto-medium text-lg">Quarto em apart-hotel em Santos, Brasil</h2>
+                    <ul class="list-details-format">
                         <li class="roboto-regular">4 hóspedes</li>
-                        <li><span class="dot">•</span></li>
+                        <li>•</li>
                         <li class="roboto-regular">1 quarto</li>
-                        <li><span class="dot">•</span></li>
+                        <li>•</li>
                         <li class="roboto-regular">2 camas</li>
-                        <li><span class="dot">•</span></li>
+                        <li>•</li>
                         <li class="roboto-regular">1 banheiro</li>
                     </ul>
                     <ul class="owner-place-name__ratings">
@@ -106,50 +117,50 @@
                             <img src="../public/assets/svg/star-rate.svg" alt="star-icon">
                             <p class="rate roboto-medium">4,95</p>
                         </li>
-                        <li><span class="dot">•</span></li>
+                        <li>•</li>
                         <li>
                             <a href="" class="roboto-medium">43 comentários</a>
                         </li>
                     </ul>
                 </section>
-                <section class="owner-profile div-btt">
+                <section class="owner-profile divisor-bottom">
                     <div class="profile-image">
                         <img src="../public/assets/svg/profile-pic.svg" alt="profile-image">
                         <img src="../public/assets/svg/profile-badge.svg" alt="badge">
                     </div>
                     <div class="profile-text">
                         <span class="roboto-medium">Anfitriã(o): Théo Do Flat Praia Santos</span>
-                        <ul class="profile-text__details">
+                        <ul class="profile-text__details text-sm">
                             <li class="roboto-regular">Superhost</li>
-                            <li><span class="dot">•</span></li>
+                            <li>•</li>
                             <li class="roboto-regular">5 anos hospedando</li>
                         </ul>
                     </div>
                 </section>
-                <section class="upsides div-btt">
+                <section class="upsides divisor-bottom">
                     <div class="upside-topic">
                         <img src="../public/assets/svg/upside-icon1.svg" alt="upside-door-icon" class="upside-icon">
                         <div class="upside-text">
                             <span class="upside-title roboto-medium">Self check-in</span>
-                            <p class="upside-description roboto-regular">Você pode fazer check-in com os funcionários do prédio.</p>
+                            <p class="upside-description roboto-regular text-sm">Você pode fazer check-in com os funcionários do prédio.</p>
                         </div>
                     </div>
                     <div class="upside-topic">
                         <img src="../public/assets/svg/upside-icon2.svg" alt="upside-badge-icon" class="upside-icon">
                         <div class="upside-text">
                             <span class="upside-title roboto-medium">Théo Do Flat Praia Santos é um Superhost</span>
-                            <p class="upside-description roboto-regular">Superhosts são anfitriões experientes, com ótimas avaliações.</p>
+                            <p class="upside-description roboto-regular text-sm">Superhosts são anfitriões experientes, com ótimas avaliações.</p>
                         </div>
                     </div>
                     <div class="upside-topic">
                         <img src="../public/assets/svg/upside-icon3.svg" alt="upside-location-icon" class="upside-icon">
                         <div class="upside-text">
                             <span class="upside-title roboto-medium">Ótima localização</span>
-                            <p class="upside-description roboto-regular">95% dos hóspedes recentes deram 5 estrelas à localização.</p>
+                            <p class="upside-description roboto-regular text-sm">95% dos hóspedes recentes deram 5 estrelas à localização.</p>
                         </div>
                     </div>
                 </section>
-                <section class="details div-btt">
+                <section class="details divisor-bottom">
                     <div class="translated">
                         <p class="roboto-regular">Algumas informações foram traduzidas automaticamente.</p>
                         <a href="#" class="roboto-medium">Exibir original</a>
@@ -162,28 +173,28 @@
                         </div>
                     </div>
                 </section>
-                <section class="sleeping-info div-btt">
-                    <span class="sleeping-title roboto-medium">Onde você vai dormir</span>
+                <section class="sleeping-info divisor-bottom">
+                    <span class="sleeping-title roboto-medium text-lg">Onde você vai dormir</span>
                     <div class="container-cards-grid">
                         <div class="sleep-place-card">
                             <img src="../public/assets/svg/bed-icon.svg" alt="bedroom-icon">
                             <div class="sleep-text">
                                 <span class="roboto-medium">Quarto</span>
-                                <p class="roboto-regular">1 cama de casal</p>
+                                <p class="roboto-regular text-sm">1 cama de casal</p>
                             </div>
                         </div>
                         <div class="sleep-place-card">
                             <img src="../public/assets/svg/couch-icon.svg" alt="couch-icon">
                             <div class="sleep-text">
                                 <span class="roboto-medium">Espaço comum</span>
-                                <p class="roboto-regular">1 sofá-cama</p>
+                                <p class="roboto-regular text-sm">1 sofá-cama</p>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="comodities div-btt">
+                <section class="comodities divisor-bottom">
                     <div class="comodities-text">
-                        <span class="comodities-title roboto-medium">O que esse lugar oferece</span>
+                        <span class="comodities-title roboto-medium text-lg">O que esse lugar oferece</span>
                         <div class="container-comodities-grid">
                             <div class="comoditie-info">
                                 <img src="../public/assets/svg/comoditie-icon1.svg" alt="ocean-view-icon">
@@ -233,8 +244,8 @@
                 </section>
                 <section class="date">
                     <div class="date-text">
-                        <span class="date-title roboto-medium">2 noites em Santos</span>
-                        <p class="date-details roboto-regular">30 de ago. de 2024 - 1 de set. de 2024</p>
+                        <span class="date-title roboto-medium text-lg">2 noites em Santos</span>
+                        <p class="date-details roboto-regular text-sm">30 de ago. de 2024 - 1 de set. de 2024</p>
                     </div>
                     <div class="container-calendars">
                         <div class="calendar">
@@ -354,66 +365,136 @@
                                     <tr>
                                         <td>29</td>
                                         <td>30</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td class="white-space"></td>
+                                        <td class="white-space"></td>
+                                        <td class="white-space"></td>
+                                        <td class="white-space"></td>
+                                        <td class="white-space"></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                     <div class="date-footer">
-                        <img src="../public/assets/svg/keyboard.svg" alt="keyboard-icon">
-                        <a href="#" class="roboto-medium">Limpar datas</a>
+                        <div class="keyboard-icon">
+                            <img src="../public/assets/svg/keyboard.svg" alt="keyboard-icon">
+                        </div>
+                        <a href="#" class="roboto-medium text-sm">Limpar datas</a>
                     </div>
                 </section>
             </div>
             <div class="rent-form">
                 <div class="form-display">
                     <div class="price">
-                        <span class="roboto-medium">R$486</span>
+                        <span class="roboto-medium text-lg">R$486</span>
                         <p class="roboto-regular">noite</p>
                     </div>
                     <div class="rent-details">
                         <div class="date-grid">
                             <div class="check-in">
-                                <p class="roboto-medium">CHECK-IN</p>
+                                <p class="roboto-bold">check-in</p>
                                 <input type="date" class="roboto-regular" value="2024-08-31">
                             </div>
                             <div class="check-out">
-                                <p class="roboto-medium">CHECK-OUT</p>
+                                <p class="roboto-bold">check-out</p>
                                 <input type="date" class="roboto-regular" value="2024-09-01">
                             </div>
                             <div class="guests">
-                                <p class="roboto-medium">Hóspedes</p>
+                                <p class="roboto-bold">Hóspedes</p>
                                 <select class="roboto-regular">
                                     <option value="1">1 hóspede</option>
+                                    <option value="2">2 hóspedes</option>
+                                    <option value="3">3 hóspedes</option>
                                 </select>
                             </div>
                         </div>
-                        <button class="btn-rent roboto-medium">Reservar</button>
-                        <p class="roboto-regular">Você ainda não será cobrado</p>
+                        <button class="btn-rent roboto-medium text-normal">Reservar</button>
+                        <p class="disclaimer roboto-regular text-sm">Você ainda não será cobrado</p>
                     </div>
                     <div class="amount-discounts">
                         <div class="amount roboto-regular">
                             <p>R$512 x 2 noites</p>
-                            <p>R$1.023</p>
+                            <span>R$1.023</span>
                         </div>
-                        <div class="discount roboto-regular">
+                        <div class="amount roboto-regular">
                             <p>Desconto para estadias de longa duração</p>
-                            <p>-R$51</p>
+                            <span class="green">-R$51</span>
                         </div>
                     </div>
-                    <div class="total roboto-medium">
+                    <div class="total roboto-medium divisor-top">
                         <p>Total sem impostos</p>
                         <p>R$972</p>
                     </div>
                 </div>
+                <div class="badge">
+                    <img src="../public/assets/svg/diamond.svg" alt="diamond-icon">
+                    <div class="badge-text">
+                        <p class="roboto-medium">Isso é um achado</p>
+                        <p class="roboto-regular badge__description text-sm">O espaço de Luiza costuma estar sempre reservado.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="ratings"></div>
+        <div class="ratings divisor-bottom">
+            <div class="ratings-title roboto-medium text-title">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 1.25rem; width: 1.25rem; fill: currentcolor;" width="32"  height="32" ><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" fill="#222222"></path></svg>
+                <ul class="list-details-format">
+                    <li>4,95</li>
+                    <li>•</li>
+                    <li>43 comentários</li>
+                </ul>
+            </div>
+            <div class="ratings-grid">
+                <div class="rate-metric">
+                    <div class="rate-text">
+                        <p class="metric roboto-medium text-sm">Avaliação Geral</p>
+                        <p class="value roboto-medium">POLL</p>
+                    </div>
+                </div>
+                <div class="rate-metric">
+                    <div class="rate-text">
+                        <p class="metric roboto-medium text-sm">Limpeza</p>
+                        <p class="value roboto-medium">4,8</p>
+                    </div>
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 32px; width: 32px; fill: currentcolor;" width="32"  height="32" ><path d="M24 0v6h-4.3c.13 1.4.67 2.72 1.52 3.78l.2.22-1.5 1.33a9.05 9.05 0 0 1-2.2-5.08c-.83.38-1.32 1.14-1.38 2.2v4.46l4.14 4.02a5 5 0 0 1 1.5 3.09l.01.25.01.25v8.63a3 3 0 0 1-2.64 2.98l-.18.01-.21.01-12-.13A3 3 0 0 1 4 29.2L4 29.02v-8.3a5 5 0 0 1 1.38-3.45l.19-.18L10 12.9V8.85l-4.01-3.4.02-.7A5 5 0 0 1 10.78 0H11zm-5.03 25.69a8.98 8.98 0 0 1-6.13-2.41l-.23-.23A6.97 6.97 0 0 0 6 21.2v7.82c0 .51.38.93.87 1H7l11.96.13h.13a1 1 0 0 0 .91-.88l.01-.12v-3.52c-.34.04-.69.06-1.03.06zM17.67 2H11a3 3 0 0 0-2.92 2.3l-.04.18-.01.08 3.67 3.1h2.72l.02-.1a4.29 4.29 0 0 1 3.23-3.4zM30 4a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-3-2a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-5 0h-2.33v2H22zm8-2a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM20 20.52a3 3 0 0 0-.77-2l-.14-.15-4.76-4.61v-4.1H12v4.1l-5.06 4.78a3 3 0 0 0-.45.53 9.03 9.03 0 0 1 7.3 2.34l.23.23A6.98 6.98 0 0 0 20 23.6z" fill="#222222"></path></svg>
+                </div>
+                <div class="rate-metric">
+                    <div class="rate-text">
+                        <p class="metric roboto-medium text-sm">Exatidão do anúncio</p>
+                        <p class="value roboto-medium">4,9</p>
+                    </div>
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 32px; width: 32px; fill: currentcolor;" width="32"  height="32" ><path d="M16 1a15 15 0 1 1 0 30 15 15 0 0 1 0-30zm0 2a13 13 0 1 0 0 26 13 13 0 0 0 0-26zm7 7.59L24.41 12 13.5 22.91 7.59 17 9 15.59l4.5 4.5z" fill="#222222"></path></svg>
+                </div>
+                <div class="rate-metric">
+                    <div class="rate-text">
+                        <p class="metric roboto-medium text-sm">Check-in</p>
+                        <p class="value roboto-medium">4,9</p>
+                    </div>
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 32px; width: 32px; fill: currentcolor;" width="32"  height="32" ><path d="M16.84 27.16v-3.4l-.26.09c-.98.32-2.03.51-3.11.55h-.7A11.34 11.34 0 0 1 1.72 13.36v-.59A11.34 11.34 0 0 1 12.77 1.72h.59c6.03.16 10.89 5.02 11.04 11.05V13.45a11.3 11.3 0 0 1-.9 4.04l-.13.3 7.91 7.9v5.6H25.7l-4.13-4.13zM10.31 7.22a3.1 3.1 0 1 1 0 6.19 3.1 3.1 0 0 1 0-6.2zm0 2.06a1.03 1.03 0 1 0 0 2.06 1.03 1.03 0 0 0 0-2.06zM22.43 25.1l4.12 4.13h2.67v-2.67l-8.37-8.37.37-.68.16-.3c.56-1.15.9-2.42.96-3.77v-.64a9.28 9.28 0 0 0-9-9h-.55a9.28 9.28 0 0 0-9 9v.54a9.28 9.28 0 0 0 13.3 8.1l.3-.16 1.52-.8v4.62z" fill="#222222"></path></svg>
+                </div>
+                <div class="rate-metric">
+                    <div class="rate-text">
+                        <p class="metric roboto-medium text-sm">Comunicação</p>
+                        <p class="value roboto-medium">5,0</p>    
+                    </div>
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 32px; width: 32px; stroke: currentcolor; stroke-width: 2; overflow: visible;" width="32"  height="32" ><path fill="none" d="M26 3a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4h-6.32L16 29.5 12.32 25H6a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z" stroke="#222222" stroke-width="2px"></path></svg>
+                </div>
+                <div class="rate-metric">
+                    <div class="rate-text">
+                        <p class="metric roboto-medium text-sm">Localização</p>
+                        <p class="value roboto-medium">5,0</p>
+                    </div>
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 32px; width: 32px; fill: currentcolor;" width="32"  height="32" ><path d="M30.95 3.81a2 2 0 0 0-2.38-1.52l-7.58 1.69-10-2-8.42 1.87A1.99 1.99 0 0 0 1 5.8v21.95a1.96 1.96 0 0 0 .05.44 2 2 0 0 0 2.38 1.52l7.58-1.69 10 2 8.42-1.87A1.99 1.99 0 0 0 31 26.2V4.25a1.99 1.99 0 0 0-.05-.44zM12 4.22l8 1.6v21.96l-8-1.6zM3 27.75V5.8l-.22-.97.22.97 7-1.55V26.2zm26-1.55-7 1.55V5.8l7-1.55z" fill="#222222"></path></svg>
+                </div>
+                <div class="rate-metric">
+                    <div class="rate-text">
+                        <p class="metric roboto-medium text-sm">Custo-benefício</p>
+                        <p class="value roboto-medium">4,8</p>
+                    </div>
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 32px; width: 32px; fill: currentcolor;" width="32"  height="32" ><path d="M16.17 2a3 3 0 0 1 1.98.74l.14.14 11 11a3 3 0 0 1 .14 4.1l-.14.14L18.12 29.3a3 3 0 0 1-4.1.14l-.14-.14-11-11A3 3 0 0 1 2 16.37l-.01-.2V5a3 3 0 0 1 2.82-3h11.35zm0 2H5a1 1 0 0 0-1 .88v11.29a1 1 0 0 0 .2.61l.1.1 11 11a1 1 0 0 0 1.31.08l.1-.08L27.88 16.7a1 1 0 0 0 .08-1.32l-.08-.1-11-11a1 1 0 0 0-.58-.28L16.17 4zM9 6a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" fill="#222222"></path></svg>
+                </div>
+            </div>
+        </div>
         <div class="comments"></div>
         <div class="location"></div>
         <div class="container-host"></div>

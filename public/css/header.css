@@ -105,11 +105,6 @@ header {
     border-radius: 25px;
 }
 
-.btn-announce span {
-    font-size: 14px;
-    line-height: 22px;
-}
-
 .btn-announce:hover {
     background-color: #ededed;
 }

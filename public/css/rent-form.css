@@ -1,0 +1,148 @@
+/* FORM DISPLAY */
+
+.rent-form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 24px;
+}
+
+.form-display {
+    width: 75%;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px 0px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.price {
+    display: flex;
+    gap: 5px;
+    align-items: end;
+}
+
+.price p {
+    line-height: 20px;
+}
+
+.rent-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.date-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        'check-in check-out'
+        'guests guests'
+    ;
+}
+
+.date-grid div {
+    font-size: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-transform: uppercase;
+    border: 1px solid #aaa;
+    padding: 12px;
+}
+
+.date-grid div input {
+    border: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    height: 0;
+    width: 0;
+}
+
+.check-in {
+    border-top-left-radius: 8px;
+    grid-area: check-in;
+}
+
+.check-out {
+    border-top-right-radius: 8px;
+    grid-area: check-out;
+}
+
+.guests {
+    border-radius: 0 0 8px 8px;
+    grid-area: guests;
+}
+
+.guests select {
+    border: none;
+}
+
+.btn-rent {
+    border: none;
+    background-color: #ff385c;
+    color: white;
+    height: 2.7rem;
+    border-radius: 8px;
+}
+
+.disclaimer {
+    text-align: center;
+}
+
+.amount-discounts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount p {
+    max-width: 80%;
+    text-decoration: underline;
+    color: #222222;
+}
+
+.green {
+    color: #008a05;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    color: #222222;
+    padding-top: 24px;
+}
+
+/* BADGE */
+
+.badge {
+    display: flex;
+    width: 75%;
+    gap: 1rem;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+}
+
+.badge img {
+    height: 32px;
+    width: 32px;
+}
+
+.badge__description {
+    color: #6a6a6a;
+    padding-top: 4px;
+}
