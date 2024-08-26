@@ -111,7 +111,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .amount p {
     max-width: 80%;
     text-decoration: underline;
-    color: #222222;
 }
 
 .green {
@@ -121,7 +120,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .total {
     display: flex;
     justify-content: space-between;
-    color: #222222;
     padding-top: 24px;
 }
 

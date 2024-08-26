@@ -1,0 +1,48 @@
+.comments {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.comments-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 95px;
+}
+
+.comment-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 42px;
+}
+
+.guest {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.comment-text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.comment-text span {
+    color: #6a6a6a;
+}
+
+.comment-text p {
+    line-height: 24px;
+}
+
+.comment-text__rate-stars {
+    display: flex;
+}
+
+.comment-text__rate-stars img {
+    height: 9px;
+    width: 9px;
+}

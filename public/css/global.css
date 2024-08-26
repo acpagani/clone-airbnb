@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: #222222;
 }
 
 
@@ -26,11 +27,15 @@ button {
     border-radius: 8px;
 }
 
+.btn-show-all:hover {
+    background-color: #f7f7f7;
+}
+
 .list-details-format {
     display: flex;
     list-style-type: none;
     justify-content: flex-start;
-    color: #222222;
+    align-items: center;
     gap: 5px;
 }
 
