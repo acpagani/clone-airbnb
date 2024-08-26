@@ -126,19 +126,8 @@
     gap: 16px;
 }
 
-.details-text p, .show-more a {
+.details-text p {
     line-height: 24px;
-}
-
-.show-more {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
-.show-more img {
-    max-width: 12px;
-    max-height: 12px;
 }
 
 /* SLEEPING INFO */

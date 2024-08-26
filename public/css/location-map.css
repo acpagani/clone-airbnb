@@ -1,0 +1,12 @@
+.location-map {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0;
+    gap: 24px
+}
+
+.location-map__text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

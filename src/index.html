@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../public/css/rent-form.css">
     <link rel="stylesheet" href="../public/css/ratings.css">
     <link rel="stylesheet" href="../public/css/comments.css">
+    <link rel="stylesheet" href="../public/css/location-map.css">
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -411,7 +412,7 @@
                             </div>
                         </div>
                         <button class="btn-rent roboto-medium text-normal">Reservar</button>
-                        <p class="disclaimer roboto-regular text-sm">Você ainda não será cobrado</p>
+                        <p class="disclaimer-charges roboto-regular text-sm">Você ainda não será cobrado</p>
                     </div>
                     <div class="amount-discounts">
                         <div class="amount roboto-regular">
@@ -681,15 +682,17 @@
         </div>
         <div class="location-map divisor-bottom">
             <span class="roboto-medium text-lg">Onde você estará</span>
-            <iframe
-                width="100%"
-                height="450"
-                style="border:0"
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAYUP7m2GImQo6rk98gWEUtx9wMnjpxfVg
-                    &q=Space+Needle,Seattle+WA">
-            </iframe>
+            <div class="map">
+                <iframe
+                    width="100%"
+                    height="450"
+                    style="border:0; border-radius: 8px;"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAYUP7m2GImQo6rk98gWEUtx9wMnjpxfVg
+                        &q=Condominio+Costa+Brava+Escorial,Santos+Brazil">
+                </iframe>
+            </div>
             <div class="location-map__text">
                 <p class="roboto-medium">Santos, São Paulo, Brasil</p>
                 <p class="roboto-regular">Hospedar-se no bairro do Gonzaga é um convite a uma experiência vibrante e diversificada! Você encontrará uma combinação perfeita de lojas modernas, restaurantes deliciosos e uma vida noturna animada. A praia está a poucos passos, ideal para relaxar e aproveitar o sol. Com uma atmosfera acolhedora e muitas opções de entretenimento, o Gonzaga promete uma estadia divertida e cheia de boas surpresas! 🌞🎉 A poucos metros de...</p>
@@ -699,7 +702,57 @@
                 </div>
             </div>
         </div>
-        <div class="container-hos divisor-bottom"></div>
+        <div class="container-host divisor-bottom">
+            <span class="roboto-medium text-lg">Quem vai receber você</span>
+            <div class="container-host__personal-info">
+                <div class="host-card">
+                    <div class="host-banner"></div>
+                    <div class="host-numbers-grid"></div>
+                </div>
+                <div class="work-language">
+                    <div class=""></div>
+                    <div class=""></div>
+                </div>
+                <div class="host-bio">
+                    <p></p>
+                </div>
+            </div>
+            <div class="container-host__service-quality">
+                <div class="super-host">
+                    <span class="roboto-medium">Théo Do Flat Praia Santos é Superhost</span>
+                    <p class="roboto-regular">Superhosts são anfitriões experientes, com ótimas avaliações e que se empenham em oferecer estadias incríveis para os hóspedes.</p>
+                </div>
+                <div class="co-hosts">
+                    <span class="roboto-medium">Coanfitriões</span>
+                    <div class="co-host">
+                        <img src="" alt="marina-photo">
+                        <p>Marina</p>
+                    </div>
+                    <div class="co-host">
+                        <img src="" alt="luiza-photo">
+                        <p>Luiza</p>
+                    </div>
+                    <div class="co-host">
+                        <img src="" alt="vanessa-photo">
+                        <p>Vanessa</p>
+                    </div>
+                </div>
+                <div class="host-info">
+                    <span class="roboto-medium">Informações do anfitrião</span>
+                    <div class="host-info__content">
+                        <p>Taxa de resposta: 100%</p>
+                        <p>Responde em até 1 hora</p>
+                    </div>
+                </div>
+                <div class="btn-message">
+                    <button class="btn-show-all roboto-medium">Envie uma mensagem para o anfitrião</button>
+                </div>
+                <div class="disclaimer-payment divisor-top">
+                    <img src="" alt="shield-airbnb">
+                    <p class="roboto-light text-sm">Para proteger seu pagamento, nunca transfira dinheiro ou se comunique fora do site ou aplicativo do Airbnb.</p>
+                </div>
+            </div>
+        </div>
         <div class="should-know"></div>
     </main>
     <footer></footer>

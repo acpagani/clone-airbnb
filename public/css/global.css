@@ -31,6 +31,18 @@ button {
     background-color: #f7f7f7;
 }
 
+.show-more {
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+    gap: 4px;
+}
+
+.show-more img {
+    max-width: 12px;
+    max-height: 12px;
+}
+
 .list-details-format {
     display: flex;
     list-style-type: none;
