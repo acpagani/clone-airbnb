@@ -1,6 +1,4 @@
 .comments {
-    display: flex;
-    flex-direction: column;
     padding: 48px 0;
 }
 
@@ -12,8 +10,6 @@
 }
 
 .comment-card {
-    display: flex;
-    flex-direction: column;
     gap: 12px;
     padding-bottom: 42px;
 }
@@ -25,8 +21,6 @@
 }
 
 .comment-text {
-    display: flex;
-    flex-direction: column;
     gap: 6px;
 }
 

@@ -1,7 +1,5 @@
 .container-hero {
     padding-top: 22px;
-    display: flex;
-    flex-direction: column;
     gap: 20px;
     position: relative;
     margin-bottom: 32px;
@@ -26,6 +24,11 @@
 
 .link a {
     color: black;
+}
+
+.link img {
+    height: 1rem;
+    width: 1rem;
 }
 
 .images {

@@ -1,6 +1,4 @@
 .ratings {
-    display: flex;
-    flex-direction: column;
     gap: 38px;
     padding: 45px 0;
 }
@@ -11,6 +9,11 @@
     gap: 5px;
 }
 
+.ratings-title img {
+    height: 20px;
+    width: 20px;
+}
+
 .ratings-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -19,12 +22,36 @@
 
 .rate-metric {
     padding: 0 24px;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between; 
     align-items: start;  
 }
 
 .rate-metric:not(:last-child) {
     border-right: 1px solid #dddddd;
+}
+
+.poll-grid {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: repeat(5, 16px);
+    column-gap: 8px;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.poll-grid span {
+    font-size: 12px;
+}
+
+.progress-bar {
+    background-color: #dddddd;
+    border-radius: 2px;
+    height: 4px;
+}
+
+.progress {
+    background-color: #222222;
+    height: 100%;
+    border-radius: 2px;
+    width: 0%;
 }

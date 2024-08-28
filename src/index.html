@@ -19,13 +19,6 @@
     <link rel="stylesheet" href="index.css">
 </head>
 
-<!-- COISAS A SEREM OTIMIZADAS: CSS -->
- <!-- 
-    padding: 48px e 32px
-    display: flex e column
-    border: sempre 1px solid #dddddd
-    img -> svg
- -->
 
 <body>
     <header>
@@ -78,16 +71,16 @@
         </div>
     </header>
     <main>
-        <section class="container-hero">
+        <section class="container-hero flex-column">
             <div class="container-title">
                 <h1 class="roboto-medium text-title">Estanconfor Santos com Vista Mar bem alto, garagem</h1>
                 <div class="container-links">
                     <div class="link">
-                        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2; overflow: visible;"><path d="m27 18v9c0 1.1046-.8954 2-2 2h-18c-1.10457 0-2-.8954-2-2v-9m11-15v21m-10-11 9.2929-9.29289c.3905-.39053 1.0237-.39053 1.4142 0l9.2929 9.29289" fill="none"></path></svg>
+                        <img src="../public/assets/svg/share.svg" alt="share-icon">
                         <a href="#" class="roboto-medium text-sm">Compartilhar</a>
                     </div>
                     <div class="link">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2; overflow: visible;"><path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path></svg>
+                        <img src="../public/assets/svg/save.svg" alt="save-icon">
                         <a href="#" class="roboto-medium text-sm">Salvar</a>
                     </div>
                 </div>
@@ -106,7 +99,7 @@
         </section>
         <section class="container-content divisor-bottom">
             <div class="description">
-                <div class="owner-place-name  divisor-bottom">
+                <div class="owner-place-name flex-column divisor-bottom">
                     <h2 class="roboto-medium text-lg">Quarto em apart-hotel em Santos, Brasil</h2>
                     <ul class="list-details-format">
                         <li class="roboto-regular">4 hóspedes</li>
@@ -142,35 +135,35 @@
                         </ul>
                     </div>
                 </div>
-                <div class="upsides divisor-bottom">
+                <div class="upsides flex-column divisor-bottom">
                     <div class="upside-topic">
                         <img src="../public/assets/svg/upside-icon1.svg" alt="upside-door-icon" class="upside-icon">
-                        <div class="upside-text">
+                        <div class="upside-text flex-column">
                             <span class="upside-title roboto-medium">Self check-in</span>
                             <p class="upside-description roboto-regular text-sm">Você pode fazer check-in com os funcionários do prédio.</p>
                         </div>
                     </div>
                     <div class="upside-topic">
                         <img src="../public/assets/svg/upside-icon2.svg" alt="upside-badge-icon" class="upside-icon">
-                        <div class="upside-text">
+                        <div class="upside-text flex-column">
                             <span class="upside-title roboto-medium">Théo Do Flat Praia Santos é um Superhost</span>
                             <p class="upside-description roboto-regular text-sm">Superhosts são anfitriões experientes, com ótimas avaliações.</p>
                         </div>
                     </div>
                     <div class="upside-topic">
                         <img src="../public/assets/svg/upside-icon3.svg" alt="upside-location-icon" class="upside-icon">
-                        <div class="upside-text">
+                        <div class="upside-text flex-column">
                             <span class="upside-title roboto-medium">Ótima localização</span>
                             <p class="upside-description roboto-regular text-sm">95% dos hóspedes recentes deram 5 estrelas à localização.</p>
                         </div>
                     </div>
                 </div>
-                <div class="details divisor-bottom">
+                <div class="details flex-column divisor-bottom">
                     <div class="translated">
                         <p class="roboto-regular">Algumas informações foram traduzidas automaticamente.</p>
                         <a href="#" class="roboto-medium">Exibir original</a>
                     </div>
-                    <div class="details-text">
+                    <div class="details-text flex-column">
                         <p class="roboto-regular">Viaje com o conforto de sua casa de Praia. Na quadra da praia, ideal para passeio e ate mesmo a trabalho. Arrumação do apto todos os dias (exceto domingos e feriados), recepção 24hr, auxílio para manutenções do dia a dia, tudo para que seu bem estar! Contamos com um quarto com cama Queen e sofá cama muito bom na sala, acomodamos até 4 pessoas! Internet WiFi 125Mb/s com TV a cabo com TODOS canais (exceto os PPU) .</p>
                         <div class="show-more">
                             <a href="#" class="roboto-medium">Mostrar mais</a>
@@ -178,27 +171,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="sleeping-info divisor-bottom">
+                <div class="sleeping-info flex-column divisor-bottom">
                     <span class="sleeping-title roboto-medium text-lg">Onde você vai dormir</span>
                     <div class="container-cards-grid">
-                        <div class="sleep-place-card">
+                        <div class="sleep-place-card flex-column">
                             <img src="../public/assets/svg/bed-icon.svg" alt="bedroom-icon">
-                            <div class="sleep-text">
+                            <div class="sleep-text flex-column">
                                 <span class="roboto-medium">Quarto</span>
                                 <p class="roboto-regular text-sm">1 cama de casal</p>
                             </div>
                         </div>
-                        <div class="sleep-place-card">
+                        <div class="sleep-place-card flex-column">
                             <img src="../public/assets/svg/couch-icon.svg" alt="couch-icon">
-                            <div class="sleep-text">
+                            <div class="sleep-text flex-column">
                                 <span class="roboto-medium">Espaço comum</span>
                                 <p class="roboto-regular text-sm">1 sofá-cama</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="comodities divisor-bottom">
-                    <div class="comodities-text">
+                <div class="comodities flex-column divisor-bottom">
+                    <div class="comodities-text flex-column">
                         <span class="comodities-title roboto-medium text-lg">O que esse lugar oferece</span>
                         <div class="container-comodities-grid">
                             <div class="comoditie-info">
@@ -247,13 +240,13 @@
                         <button class="btn-show-all roboto-medium">Mostrar todas as 35 comodidades</button>
                     </div>
                 </div>
-                <div class="date">
-                    <div class="date-text">
+                <div class="date flex-column">
+                    <div class="date-text flex-column">
                         <span class="date-title roboto-medium text-lg">2 noites em Santos</span>
                         <p class="date-details roboto-regular text-sm">30 de ago. de 2024 - 1 de set. de 2024</p>
                     </div>
                     <div class="container-calendars">
-                        <div class="calendar">
+                        <div class="calendar flex-column">
                             <span class="roboto-medium">agosto de 2024</span>
                             <table class="month">
                                 <thead class="roboto-medium">
@@ -316,7 +309,7 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div class="calendar">
+                        <div class="calendar flex-column">
                             <span class="roboto-medium">setembro de 2024</span>
                             <table class="month roboto-regular">
                                 <thead>
@@ -388,13 +381,13 @@
                     </div>
                 </div>
             </div>
-            <div class="rent-form">
-                <div class="form-display">
+            <div class="rent-form flex-column">
+                <div class="form-display flex-column">
                     <div class="price">
                         <span class="roboto-medium text-lg">R$486</span>
                         <p class="roboto-regular">noite</p>
                     </div>
-                    <div class="rent-details">
+                    <div class="rent-details flex-column">
                         <div class="date-grid">
                             <div class="check-in">
                                 <p class="roboto-bold">check-in</p>
@@ -416,7 +409,7 @@
                         <button class="btn-rent roboto-medium text-normal">Reservar</button>
                         <p class="disclaimer-charges roboto-regular text-sm">Você ainda não será cobrado</p>
                     </div>
-                    <div class="amount-discounts">
+                    <div class="amount-discounts flex-column">
                         <div class="amount roboto-regular">
                             <p>R$512 x 2 noites</p>
                             <span>R$1.023</span>
@@ -440,69 +433,90 @@
                 </div>
             </div>
         </section>
-        <section class="ratings divisor-bottom">
+        <section class="ratings flex-column divisor-bottom">
             <div class="ratings-title roboto-medium text-title">
-                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 1.25rem; width: 1.25rem; fill: currentcolor;" width="32"  height="32" ><path fill-rule="evenodd" d="m15.1 1.58-4.13 8.88-9.86 1.27a1 1 0 0 0-.54 1.74l7.3 6.57-1.97 9.85a1 1 0 0 0 1.48 1.06l8.62-5 8.63 5a1 1 0 0 0 1.48-1.06l-1.97-9.85 7.3-6.57a1 1 0 0 0-.55-1.73l-9.86-1.28-4.12-8.88a1 1 0 0 0-1.82 0z" fill="#222222"></path></svg>
+                <img src="../public/assets/svg/star-rate.svg" alt="">
                 <ul class="list-details-format">
-                    <li>4,95</li>
+                    <li>4,94</li>
                     <li>·</li>
-                    <li>43 comentários</li>
+                    <li>47 comentários</li>
                 </ul>
             </div>
             <div class="ratings-grid">
-                <div class="rate-metric">
+                <div class="rate-metric flex-column">
                     <div class="rate-text">
                         <p class="metric roboto-medium text-sm">Avaliação Geral</p>
-                        <p class="value roboto-medium">POLL</p>
+                        <div class="poll-grid">
+                            <span class="roboto-regular">5</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                            <span class="roboto-regular">4</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 10%;"></div>
+                            </div>
+                            <span class="roboto-regular">3</span>
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <span class="roboto-regular">2</span>
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <span class="roboto-regular">1</span>
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="rate-metric">
+                <div class="rate-metric flex-column">
                     <div class="rate-text">
                         <p class="metric roboto-medium text-sm">Limpeza</p>
                         <p class="value roboto-medium">4,8</p>
                     </div>
-                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 32px; width: 32px; fill: currentcolor;" width="32"  height="32" ><path d="M24 0v6h-4.3c.13 1.4.67 2.72 1.52 3.78l.2.22-1.5 1.33a9.05 9.05 0 0 1-2.2-5.08c-.83.38-1.32 1.14-1.38 2.2v4.46l4.14 4.02a5 5 0 0 1 1.5 3.09l.01.25.01.25v8.63a3 3 0 0 1-2.64 2.98l-.18.01-.21.01-12-.13A3 3 0 0 1 4 29.2L4 29.02v-8.3a5 5 0 0 1 1.38-3.45l.19-.18L10 12.9V8.85l-4.01-3.4.02-.7A5 5 0 0 1 10.78 0H11zm-5.03 25.69a8.98 8.98 0 0 1-6.13-2.41l-.23-.23A6.97 6.97 0 0 0 6 21.2v7.82c0 .51.38.93.87 1H7l11.96.13h.13a1 1 0 0 0 .91-.88l.01-.12v-3.52c-.34.04-.69.06-1.03.06zM17.67 2H11a3 3 0 0 0-2.92 2.3l-.04.18-.01.08 3.67 3.1h2.72l.02-.1a4.29 4.29 0 0 1 3.23-3.4zM30 4a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-3-2a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-5 0h-2.33v2H22zm8-2a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM20 20.52a3 3 0 0 0-.77-2l-.14-.15-4.76-4.61v-4.1H12v4.1l-5.06 4.78a3 3 0 0 0-.45.53 9.03 9.03 0 0 1 7.3 2.34l.23.23A6.98 6.98 0 0 0 20 23.6z" fill="#222222"></path></svg>
+                    <img src="../public/assets/svg/ratings-clean.svg" alt="cleaning-icon">
                 </div>
-                <div class="rate-metric">
+                <div class="rate-metric flex-column">
                     <div class="rate-text">
                         <p class="metric roboto-medium text-sm">Exatidão do anúncio</p>
                         <p class="value roboto-medium">4,9</p>
                     </div>
-                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 32px; width: 32px; fill: currentcolor;" width="32"  height="32" ><path d="M16 1a15 15 0 1 1 0 30 15 15 0 0 1 0-30zm0 2a13 13 0 1 0 0 26 13 13 0 0 0 0-26zm7 7.59L24.41 12 13.5 22.91 7.59 17 9 15.59l4.5 4.5z" fill="#222222"></path></svg>
+                    <img src="../public/assets/svg/ratings-check.svg" alt="check-icon">
                 </div>
-                <div class="rate-metric">
+                <div class="rate-metric flex-column">
                     <div class="rate-text">
                         <p class="metric roboto-medium text-sm">Check-in</p>
                         <p class="value roboto-medium">4,9</p>
                     </div>
-                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 32px; width: 32px; fill: currentcolor;" width="32"  height="32" ><path d="M16.84 27.16v-3.4l-.26.09c-.98.32-2.03.51-3.11.55h-.7A11.34 11.34 0 0 1 1.72 13.36v-.59A11.34 11.34 0 0 1 12.77 1.72h.59c6.03.16 10.89 5.02 11.04 11.05V13.45a11.3 11.3 0 0 1-.9 4.04l-.13.3 7.91 7.9v5.6H25.7l-4.13-4.13zM10.31 7.22a3.1 3.1 0 1 1 0 6.19 3.1 3.1 0 0 1 0-6.2zm0 2.06a1.03 1.03 0 1 0 0 2.06 1.03 1.03 0 0 0 0-2.06zM22.43 25.1l4.12 4.13h2.67v-2.67l-8.37-8.37.37-.68.16-.3c.56-1.15.9-2.42.96-3.77v-.64a9.28 9.28 0 0 0-9-9h-.55a9.28 9.28 0 0 0-9 9v.54a9.28 9.28 0 0 0 13.3 8.1l.3-.16 1.52-.8v4.62z" fill="#222222"></path></svg>
+                    <img src="../public/assets/svg/ratings-key.svg" alt="key-icon">
                 </div>
-                <div class="rate-metric">
+                <div class="rate-metric flex-column">
                     <div class="rate-text">
                         <p class="metric roboto-medium text-sm">Comunicação</p>
                         <p class="value roboto-medium">5,0</p>    
                     </div>
-                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 32px; width: 32px; stroke: currentcolor; stroke-width: 2; overflow: visible;" width="32"  height="32" ><path fill="none" d="M26 3a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4h-6.32L16 29.5 12.32 25H6a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z" stroke="#222222" stroke-width="2px"></path></svg>
+                    <img src="../public/assets/svg/ratings-comment.svg" alt="communication-icon">
                 </div>
-                <div class="rate-metric">
+                <div class="rate-metric flex-column">
                     <div class="rate-text">
                         <p class="metric roboto-medium text-sm">Localização</p>
                         <p class="value roboto-medium">5,0</p>
                     </div>
-                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 32px; width: 32px; fill: currentcolor;" width="32"  height="32" ><path d="M30.95 3.81a2 2 0 0 0-2.38-1.52l-7.58 1.69-10-2-8.42 1.87A1.99 1.99 0 0 0 1 5.8v21.95a1.96 1.96 0 0 0 .05.44 2 2 0 0 0 2.38 1.52l7.58-1.69 10 2 8.42-1.87A1.99 1.99 0 0 0 31 26.2V4.25a1.99 1.99 0 0 0-.05-.44zM12 4.22l8 1.6v21.96l-8-1.6zM3 27.75V5.8l-.22-.97.22.97 7-1.55V26.2zm26-1.55-7 1.55V5.8l7-1.55z" fill="#222222"></path></svg>
+                    <img src="../public/assets/svg/ratings-map.svg" alt="map-icon">
                 </div>
-                <div class="rate-metric">
+                <div class="rate-metric flex-column">
                     <div class="rate-text">
                         <p class="metric roboto-medium text-sm">Custo-benefício</p>
                         <p class="value roboto-medium">4,8</p>
                     </div>
-                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 32px; width: 32px; fill: currentcolor;" width="32"  height="32" ><path d="M16.17 2a3 3 0 0 1 1.98.74l.14.14 11 11a3 3 0 0 1 .14 4.1l-.14.14L18.12 29.3a3 3 0 0 1-4.1.14l-.14-.14-11-11A3 3 0 0 1 2 16.37l-.01-.2V5a3 3 0 0 1 2.82-3h11.35zm0 2H5a1 1 0 0 0-1 .88v11.29a1 1 0 0 0 .2.61l.1.1 11 11a1 1 0 0 0 1.31.08l.1-.08L27.88 16.7a1 1 0 0 0 .08-1.32l-.08-.1-11-11a1 1 0 0 0-.58-.28L16.17 4zM9 6a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" fill="#222222"></path></svg>
+                    <img src="../public/assets/svg/ratings-price.svg" alt="price-tag-icon">
                 </div>
             </div>
         </section>
-        <section class="comments divisor-bottom">
+        <section class="comments flex-column divisor-bottom">
             <div class="comments-grid">
-                <div class="comment-card">
+                <div class="comment-card flex-column">
                     <div class="guest">
                         <img src="../public/assets/svg/Mary.svg" alt="mary-photo">
                         <div class="guest-info">
@@ -510,7 +524,7 @@
                             <div class="guest-location roboto-regular text-sm">Nova York, Nova York</div>
                         </div>
                     </div>
-                    <div class="comment-text">
+                    <div class="comment-text flex-column">
                         <ul class="list-details-format text-sm">
                             <li>
                                 <div class="comment-text__rate-stars">
@@ -531,7 +545,7 @@
                         <p class="comment roboto-regular">O apartamento fica perto de muitas padarias, restaurantes e da praia. Tudo caminhável! O prédio também tinha boa segurança. O apartamento é moderno e a varanda é adorável.</p>
                     </div>
                 </div>
-                <div class="comment-card">
+                <div class="comment-card flex-column">
                     <div class="guest">
                         <img src="../public/assets/svg/Karolina.svg" alt="karolina-photo">
                         <div class="guest-info">
@@ -539,7 +553,7 @@
                             <div class="guest-location roboto-regular text-sm">1 ano no Airbnb</div>
                         </div>
                     </div>
-                    <div class="comment-text">
+                    <div class="comment-text flex-column">
                         <ul class="list-details-format text-sm">
                             <li>
                                 <div class="comment-text__rate-stars">
@@ -560,7 +574,7 @@
                         <p class="comment roboto-regular">O apartamento é ótimo e tem uma boa localização.</p>
                     </div>
                 </div>
-                <div class="comment-card">
+                <div class="comment-card flex-column">
                     <div class="guest">
                         <img src="../public/assets/svg/Gabriel.svg" alt="gabriel-photo">
                         <div class="guest-info">
@@ -568,7 +582,7 @@
                             <div class="guest-location roboto-regular text-sm">San Salvador, El Salvador</div>
                         </div>
                     </div>
-                    <div class="comment-text">
+                    <div class="comment-text flex-column">
                         <ul class="list-details-format text-sm">
                             <li>
                                 <div class="comment-text__rate-stars">
@@ -589,7 +603,7 @@
                         <p class="comment roboto-regular">Sou muito grata por tudo, eles nos atenderam de forma excelente e estou muito satisfeito com toda a minha estadia, com um grande desejo de visitar aquele belo lugar</p>
                     </div>
                 </div>
-                <div class="comment-card">
+                <div class="comment-card flex-column">
                     <div class="guest">
                         <img src="../public/assets/svg/Joao.svg" alt="joao-photo">
                         <div class="guest-info">
@@ -597,7 +611,7 @@
                             <div class="guest-location roboto-regular text-sm">Rockville, Maryland</div>
                         </div>
                     </div>
-                    <div class="comment-text">
+                    <div class="comment-text flex-column">
                         <ul class="list-details-format text-sm">
                             <li>
                                 <div class="comment-text__rate-stars">
@@ -618,7 +632,7 @@
                         <p class="comment roboto-regular">Ap muito aconchegante e ótima localização!</p>
                     </div>
                 </div>
-                <div class="comment-card">
+                <div class="comment-card flex-column">
                     <div class="guest">
                         <img src="../public/assets/svg/Sijie.svg" alt="sijie-photo">
                         <div class="guest-info">
@@ -626,7 +640,7 @@
                             <div class="guest-location roboto-regular text-sm">1 ano no Airbnb</div>
                         </div>
                     </div>
-                    <div class="comment-text">
+                    <div class="comment-text flex-column">
                         <ul class="list-details-format text-sm">
                             <li>
                                 <div class="comment-text__rate-stars">
@@ -647,7 +661,7 @@
                         <p class="comment roboto-regular">É bom e adoro a vista é que o ar condicionado não tem um aquecedor que precisa ser melhorado</p>
                     </div>
                 </div>
-                <div class="comment-card">
+                <div class="comment-card flex-column">
                     <div class="guest">
                         <img src="../public/assets/svg/Juliano.svg" alt="juliano-photo">
                         <div class="guest-info">
@@ -655,7 +669,7 @@
                             <div class="guest-location roboto-regular text-sm">8 anos no Airbnb</div>
                         </div>
                     </div>
-                    <div class="comment-text">
+                    <div class="comment-text flex-column">
                         <ul class="list-details-format text-sm">
                             <li>
                                 <div class="comment-text__rate-stars">
@@ -682,7 +696,7 @@
                 <button class="btn-show-all roboto-medium">Mostrar todos os 43 comentários</button>
             </div>
         </section>
-        <section class="location-map divisor-bottom">
+        <section class="location-map flex-column divisor-bottom">
             <span class="roboto-medium text-lg">Onde você estará</span>
             <div class="map">
                 <iframe
@@ -695,7 +709,7 @@
                         &q=Condominio+Costa+Brava+Escorial,Santos+Brazil">
                 </iframe>
             </div>
-            <div class="location-map__text">
+            <div class="location-map__text flex-column">
                 <p class="roboto-medium">Santos, São Paulo, Brasil</p>
                 <p class="roboto-regular">Hospedar-se no bairro do Gonzaga é um convite a uma experiência vibrante e diversificada! Você encontrará uma combinação perfeita de lojas modernas, restaurantes deliciosos e uma vida noturna animada. A praia está a poucos passos, ideal para relaxar e aproveitar o sol. Com uma atmosfera acolhedora e muitas opções de entretenimento, o Gonzaga promete uma estadia divertida e cheia de boas surpresas! 🌞🎉 A poucos metros de...</p>
                 <div class="show-more">
@@ -704,12 +718,12 @@
                 </div>
             </div>
         </section>
-        <section class="container-host divisor-bottom">
+        <section class="container-host flex-column divisor-bottom">
             <span class="roboto-medium text-lg">Quem vai receber você</span>
             <div class="container-host__content">
-                <div class="container-host__content__personal-info">
+                <div class="container-host__content__personal-info flex-column">
                     <div class="host-card">
-                        <div class="host-banner">
+                        <div class="host-banner flex-column">
                             <div class="host-banner__img">
                                 <img src="../public/assets/svg/theo.svg" alt="profile-image">
                                 <div class="secured-icon">
@@ -739,7 +753,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="work-language">
+                    <div class="work-language flex-column">
                         <div>
                             <img src="../public/assets/svg/work-icon.svg" alt="work-icon">
                             <p class="roboto-regular">Meu trabalho: Hoteleiro d formação</p>
@@ -749,7 +763,7 @@
                             <p class="roboto-regular">Idiomas: inglês, português e espanhol</p>
                         </div>
                     </div>
-                    <div class="host-bio">
+                    <div class="host-bio flex-column">
                         <p class="roboto-regular">Possuindo 28 anos de experiência na hotelaria internacional, estamos prontos para fazer-lhe sentir...</p>
                         <div class="show-more">
                             <a href="#" class="roboto-medium">Mostrar mais</a>
@@ -758,11 +772,11 @@
                     </div>
                 </div>
                 <div class="container-host__content__service-quality">
-                    <div class="super-host">
+                    <div class="super-host flex-column">
                         <span class="roboto-medium">Théo Do Flat Praia Santos é Superhost</span>
                         <p class="roboto-regular">Superhosts são anfitriões experientes, com ótimas avaliações e que se empenham em oferecer estadias incríveis para os hóspedes.</p>
                     </div>
-                    <div class="co-hosts">
+                    <div class="co-hosts flex-column">
                         <span class="roboto-medium">Coanfitriões</span>
                         <div class="co-hosts__container">
                             <div class="co-host-person">
@@ -779,7 +793,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="host-info">
+                    <div class="host-info flex-column">
                         <span class="roboto-medium">Informações do anfitrião</span>
                         <div class="host-info__content roboto-regular">
                             <p>Taxa de resposta: 100%</p>
@@ -796,7 +810,7 @@
                 </div>
             </div>
         </section>
-        <section class="should-know">
+        <section class="should-know flex-column">
             <span class="roboto-medium text-lg">O que você deve saber</span>
             <div class="should-know__grid">
                 <div class="should-know__topic">
