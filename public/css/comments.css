@@ -1,7 +1,7 @@
 .comments {
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
+    padding: 48px 0;
 }
 
 .comments-grid {
