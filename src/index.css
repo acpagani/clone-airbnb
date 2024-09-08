@@ -8,9 +8,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75%;
-    max-width: 80rem;
+    min-width: 41.5rem;
+    max-width: 70rem;
     margin: 1.1875rem auto;
+    padding: 0 5rem;
 }
 
 .logo {
@@ -144,9 +145,10 @@ header {
 /* MAIN */
 
 main {
-    width: 75%;
-    max-width: 80rem;
+    min-width: 41.5rem;
+    max-width: 70rem;
     margin: 0 auto;
+    padding: 0 5rem;
 }
 
 /* HERO */
@@ -230,8 +232,8 @@ main {
     border-radius: 0.5rem;
 
     position: absolute;
-    top: 87%;
-    left: 79%;
+    bottom: 1.5rem;
+    right: 1.5rem;
 }
 
 /* CONTENT */
@@ -985,8 +987,9 @@ footer {
 }
 
 .page-path {
-    padding: 2rem 0;
-    width: 75%;
+    padding: 2rem 5rem;
+    min-width: 41.5rem;
+    max-width: 70rem;
     margin: 0 auto;
 }
 
@@ -997,7 +1000,9 @@ footer {
 
 .footer-content {
     width: 75%;
+    max-width: 70rem;
     margin: 0 auto;
+    padding: 0 5rem;
 }
 
 .footer-anchors-grid {
