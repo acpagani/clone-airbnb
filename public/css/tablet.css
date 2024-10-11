@@ -1,4 +1,26 @@
 @media screen and (max-width: 950px) {
+
+
+    /* MAIN */
+
+            /* COMMENTS */
+
+            .comments-grid {
+                grid-template-columns: 1fr;
+            }
+
+            /* LOCATION MAP */
+
+            /* CONTAINER HOST */
+
+            .container-host__content {
+                flex-direction: column;
+            }
+
+            /* SHOULD KNOW */
+
+    /* FOOTER */
+
     .footer-anchors-grid {
         display: grid;
         grid-template-rows: repeat(3, 1fr);

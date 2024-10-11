@@ -1,4 +1,59 @@
 @media screen and (max-width: 740px) {
+    
+    
+    /* MAIN */
+
+    main {
+        padding: 0 1.5rem;
+    }
+
+        /* COMMENTS */
+
+        .comments-grid {
+            display: flex;
+            overflow-x: scroll;
+            gap: 2rem;
+            padding: 1rem 0;
+            width: 100%;
+        }
+
+        .comment-card {
+            text-align: left;
+            border-radius: 0.75rem;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px 0;
+            min-width: 80%;
+            padding: 2rem;
+        }
+
+        .comments-button, .comments-button button {
+            width: 100%;
+        }
+
+        /* LOCATION MAP */
+
+        .map-google {
+            height: 13.75rem;
+        }
+
+        /* CONTAINER HOST */
+
+        /* SHOULD KNOW */
+
+        .should-know span {
+            display: none;
+        }
+
+        .should-know__grid {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1fr);
+        }
+
+        .should-know__topic > p  {
+            font-size: 1.375rem;
+        }
+
+    /* FOOTER */
+    
     .airbnb-copyright {
         align-items: start;
     }
