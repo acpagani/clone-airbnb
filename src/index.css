@@ -6,20 +6,23 @@ header {
 
 .container-header {
     display: flex;
-    justify-content: center;
     align-items: center;
-    min-width: 41.5rem;
     max-width: 70rem;
-    margin: 1.1875rem auto;
+    margin: 1.2rem auto;
     padding: 0 5rem;
+    gap: 1.5rem;
 }
 
 .logo {
-    width: 18%;
+    flex: 1;
+}
+
+.logo img {
+    height: 100%;
 }
 
 .container-search {
-    width: 47%;
+    flex: 2;
 }
 
 .search {
@@ -27,7 +30,8 @@ header {
     max-width: 29.375rem;
     margin: 0 auto;
     padding: 0.3125rem;
-    
+
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,17 +43,17 @@ header {
 }
 
 .search1 {
-    width: 33%;
+    flex-basis: 33%;
 }
 
 .search2 {
-    width: 34%;
+    flex-basis: 33%;
     border-right: 0.0938rem solid #dddddd;
     border-left: 0.0938rem solid #dddddd;
 }
 
 .search3 {
-    width: 33%;
+    flex-basis: 33%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,9 +67,12 @@ header {
 }
 
 .search button span {
-    padding: 0 0.5rem;
+    width: 100%;
     font-size: 0.875rem;
     line-height: 1.375rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .search3 button span {
@@ -106,6 +113,7 @@ header {
     border: none;
     background-color: white;
     border-radius: 1.5625rem;
+    white-space: nowrap;
 }
 
 .btn-announce:hover {
