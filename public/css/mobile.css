@@ -1,0 +1,9 @@
+@media screen and (max-width: 740px) {
+    .airbnb-copyright {
+        align-items: start;
+    }
+
+    .airbnb-copyright__list {
+        align-items: start;
+    }
+}

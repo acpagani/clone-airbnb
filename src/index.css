@@ -29,7 +29,7 @@ header {
     width: 90%;
     max-width: 29.375rem;
     margin: 0 auto;
-    padding: 0.3125rem;
+    padding: 0.3125rem 5px;
 
 
     display: flex;
@@ -42,18 +42,19 @@ header {
     border-radius: 1.25rem;
 }
 
-.search1 {
+.search div {
+    display: flex;
+    align-items: center;
+    padding: 0 0.625rem;
     flex-basis: 33%;
 }
 
 .search2 {
-    flex-basis: 33%;
     border-right: 0.0938rem solid #dddddd;
     border-left: 0.0938rem solid #dddddd;
 }
 
 .search3 {
-    flex-basis: 33%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -995,8 +996,8 @@ footer {
 }
 
 .page-path {
+    width: 75%;
     padding: 2rem 5rem;
-    min-width: 41.5rem;
     max-width: 70rem;
     margin: 0 auto;
 }
@@ -1030,6 +1031,11 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 0;
+}
+
+.airbnb-copyright__list {
+    display: flex;
+    gap: 1rem;
 }
 
 .airbnb-copyright .list-details-format a {
