@@ -93,7 +93,7 @@
             /* DATE */
 
             .month tr td {
-                padding: calc(100vw / 25);
+                padding: 2.2rem;
             }
 
             /* RENT FORM */
@@ -185,4 +185,76 @@
     .social-media {
         display: none;
     }
+}
+
+@media screen and (max-width: 725px) {
+
+    .month tr td {
+        padding: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 675px) {
+
+    .month tr td {
+        padding: 1.8rem;
+    }
+
+}
+
+@media screen and (max-width: 625px) {
+
+    .month tr td {
+        padding: 1.6rem;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    .month tr td {
+        padding: 1.4rem;
+    }
+
+}
+
+@media screen and (max-width: 525px) {
+
+    .month tr td {
+        padding: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 475px) {
+
+    .month tr td {
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .month tr td {
+        padding: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .month tr td {
+        padding: 0.6rem;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+
+    .month tr td {
+        padding: 0.5rem;
+    }
+
 }

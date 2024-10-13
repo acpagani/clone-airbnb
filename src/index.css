@@ -1110,3 +1110,10 @@ footer {
 .footer-anchors a:hover, .language a:hover, .currency:hover {
     text-decoration: underline;
 }
+
+
+@media screen and (max-width: 1023px) {
+    .month tr td {
+        padding: 0.4rem;
+    }
+}
