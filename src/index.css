@@ -475,7 +475,7 @@ main {
 }
 
 .month td {
-    padding: 0.5rem;
+    padding: 0.6rem;
     text-align: center;
     border-radius: 50%;
 }
@@ -1112,7 +1112,7 @@ footer {
 }
 
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1135px) {
     .month tr td {
         padding: 0.4rem;
     }
