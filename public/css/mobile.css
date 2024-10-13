@@ -1,0 +1,260 @@
+@media screen and (max-width: 740px) {
+    
+    /* HEADER */
+
+    header {
+        display: none;
+    }
+    
+    /* MAIN */
+
+        /* CONTAINER HERO */
+
+        .container-hero {
+            position: relative;
+            flex-direction: column-reverse;
+            padding-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        .link a {
+            display: none;
+        }
+
+        .container-links {
+            position: absolute;
+            z-index: 1;
+            top: 2%;
+            right: 0;
+        }
+
+
+        .link {
+            border-radius: 50%;
+            background-color: white;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .images {
+            display: flex;
+            overflow-x: scroll;
+            position: relative;
+            width: 100vw;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+        }
+
+        .images img {
+            border-radius: 0 !important;
+        }
+
+        .container-hero .btn-more {
+            display: none;
+        }
+
+        /* CONTAINER CONTENT */
+
+            /* DESCRIPTION */
+
+            .description {
+                flex-basis: auto;
+            }
+
+            /* OWNER PLACE NAME */
+
+            .owner-place-name h2 {
+                font-size: 1rem;
+            }
+
+            .owner-place-name ul li {
+                font-size: 0.875rem;
+            }
+
+            /* OWNER PROFILE */
+
+            /* UPSIDES */
+
+            /* DETAILS */
+
+            /* SLEEPING INFO */
+
+            /* COMODITIES */
+
+            .comodities-button button {
+                width: 100%;
+            }
+
+            /* DATE */
+
+            .month tr td {
+                padding: 2.2rem;
+            }
+
+            /* RENT FORM */
+
+            .rent-form {
+                display: none;
+            }
+
+            /* RENT FORM MOBILE */
+
+            .rent-form__mobile {
+                display: flex;
+            }
+
+        /* RATINGS */
+
+        .ratings {
+            border-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .ratings-grid {
+            display: none;
+        }
+
+        /* COMMENTS */
+
+        .comments {
+            padding-top: 0;
+        }
+
+        .comments-grid {
+            display: flex;
+            overflow-x: scroll;
+            gap: 2rem;
+            padding: 1rem 0;
+            width: 100%;
+        }
+
+        .comment-card {
+            text-align: left;
+            border-radius: 0.75rem;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px 0;
+            min-width: 80%;
+            padding: 2rem;
+        }
+
+        .comments-button, .comments-button button {
+            width: 100%;
+        }
+
+        /* LOCATION MAP */
+
+        .map-google {
+            height: 13.75rem;
+        }
+
+        /* CONTAINER HOST */
+
+        /* SHOULD KNOW */
+
+        .should-know span {
+            display: none;
+        }
+
+        .should-know__grid {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1fr);
+        }
+
+        .should-know__topic > p  {
+            font-size: 1.375rem;
+        }
+
+    /* FOOTER */
+
+    .airbnb-copyright {
+        align-items: start;
+    }
+
+    .airbnb-copyright__list {
+        align-items: start;
+    }
+
+    .airbnb-copyright__list .list-details-format {
+        flex-wrap: wrap;
+    }
+
+    .social-media {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 725px) {
+
+    .month tr td {
+        padding: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 675px) {
+
+    .month tr td {
+        padding: 1.8rem;
+    }
+
+}
+
+@media screen and (max-width: 625px) {
+
+    .month tr td {
+        padding: 1.6rem;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    .month tr td {
+        padding: 1.4rem;
+    }
+
+}
+
+@media screen and (max-width: 525px) {
+
+    .month tr td {
+        padding: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 475px) {
+
+    .month tr td {
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .month tr td {
+        padding: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .month tr td {
+        padding: 0.6rem;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+
+    .month tr td {
+        padding: 0.5rem;
+    }
+
+}

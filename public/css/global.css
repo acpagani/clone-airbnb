@@ -4,6 +4,12 @@
     color: #222222;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .divisor-bottom {
     border-bottom: 0.0625rem solid #dddddd;
     width: 100%;
