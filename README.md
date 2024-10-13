@@ -1,5 +1,5 @@
-# Front-End: Checkpoint 1
-## Clone Airbnb
+# Front-End: Checkpoint 2
+## Clone Airbnb Responsivo
 
 ### Integrantes
 #### Arthur Cotrick Pagani RM 554510
