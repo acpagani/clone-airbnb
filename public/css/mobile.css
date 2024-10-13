@@ -42,6 +42,12 @@
         .images {
             display: flex;
             overflow-x: scroll;
+            position: relative;
+            width: 100vw;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
         }
 
         .images img {
@@ -94,6 +100,12 @@
 
             .rent-form {
                 display: none;
+            }
+
+            /* RENT FORM MOBILE */
+
+            .rent-form__mobile {
+                display: flex;
             }
 
         /* RATINGS */
